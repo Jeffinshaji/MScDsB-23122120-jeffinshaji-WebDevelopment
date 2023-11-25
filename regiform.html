@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    th,td {
+      border: 3px solid black;
+      margin-top: 50px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <h2 style="text-align: center;"><u>Registration Form</u></h2>
+  <table class="center">
+    <tr style="height: 50px;">
+      <th>Firstname</th>
+      <td><input type="text" name="firstname" size="15" placeholder="Enetr your Firstname " /></td>
+    </tr>
+    <tr style="height: 50px;">
+      <th>Lastname</th>
+      <td><input type="text" name="lastname" size="15" placeholder="Enter your lastname" /></td>
+
+    </tr>
+    <tr style="height: 50px;">
+      <th>Gender</th>
+      <td colspan="2"><input type="radio" name="Gender" /> Male<input type="radio" name="Gender" /> Female </td>
+    </tr>
+    <tr style="height: 50px;">
+      <th>DOB</th>
+      <td colspan="2"><input type="date" /></td>
+    </tr>
+    <tr style="height: 50px;">
+      <th>Qulification</th>
+      <td colspan="2"><input type="checkbox"/>MCA <input type="checkbox"/>MBA<input type="checkbox"/>MTECH<input type="checkbox"/>Other</td>
+    </tr>
+    <tr style="height: 50px;">
+      <th>Contact</th>
+      <td colspan="2"><input type="tel" placeholder="Enter your Number" /></td>
+    </tr>
+    <tr style="height: 50px;">
+    <th>Email</th>
+    <td colspan="2"><input type="email" placeholder="Enter your Email" /></td>
+    </tr>
+    <tr style="height: 50px;">
+      <th>Address</th>
+      <td colspan="2"><input type="text" placeholder="Enter your Address" /></td>
+    </tr>
+    <tr style="height: 50px;">
+      <th>Select Department</th>
+      <td colspan="2">
+        <select>
+          <option>choose..</option>
+          <option>MSc DS</option>
+          <option>MBA</option>
+          <option>BBA</option>
+          <option>BALLB</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+
+      <td colspan="2"><button style="margin-left: 35%;" type="submit">Register</button><button style="margin-left: 5%;"
+          type="reset">Cancel</button></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
+
