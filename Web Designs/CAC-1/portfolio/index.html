@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0151c316f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>System Engineer, Network Engineer, Web Designer</p>
+            <h1>HI, I'm <span>JEFFIN </span>SHAJI<br> From India</h1>
+        </div>
+    </div>
+ </div>
+ <!--------------------About-----------------> 
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="Images/my image.jpg" width="500px" height="400px" alt="userpic">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm Jeffin, a 26-year-old professional with a diverse skill set and a passion for technology. I hold a BCA degree and am a certified Red Hat Certified Engineer (RHCE). Over the past three years, I've gained valuable experience working as both a system engineer and network engineer, where I've honed my abilities in designing and maintaining complex IT infrastructures. Currently, I'm pursuing an MSc in Data Science to deepen my understanding of data analytics and interpretation. My journey reflects a commitment to staying at the forefront of technology, seamlessly transitioning from systems and networks to the dynamic realm of data science. I bring a unique blend of technical expertise and a forward-thinking mindset to contribute effectively to the ever-evolving landscape of IT and data.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certification')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('project')">Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>System Engineer</span><br>Proficient in designing, implementing, and maintaining complex IT systems.</li>
+                        <li><span>Web Devlopment</span><br>Skilled in web development, encompassing both front-end and back-end tasks, with expertise in programming languages to create and maintain web solutions.</li>
+                        <li><span>Network Engineer</span><br>Experienced in managing and optimizing network infrastructures.</li>
+                        <li><span>System Admin</span><br>Experienced in system administration, involving the configuration and management of servers, implementation of security measures, and troubleshooting to ensure system stability.</li>      
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020-2021</span><br>Junior system Administrator at Luure.ai.LLP Thrissur.</li>
+                        <li><span>2021-2023</span><br>System Engineer at Smartnet Informatics Kochi.</li>     
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2014-2016</span><br>Higher Secondary Education.</li>
+                        <li><span>2016-2019</span><br>BAC From ST Thomas College Pala.</li>
+                        <li><span>2019</span><br>RHCE Education.</li>      
+                        <li><span>2023-2025</span><br>Msc Data Science From Christ Deemed To Be University.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certification">
+                    <ul>
+                        <li><span>RHCE certification</span><br>RHCE Certified Engineer.</li>
+                        <li><span>Kramer Certification</span><br>Kramer Certified programer.</li>     
+                    </ul>
+                </div>
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li><span>Soap Factory management</span><br>Mini project done in college </li>
+                        <li><span>Sports Club Automation</span><br>Main project done in college using Android studio,java.</li>
+                        <li><span>10G Based Video-Wall</span><br>Project done in NPOL Kochi. It is a 10G based video conference system project created with different equipments like Kramer, Biamp, Aver, Samsung, Netgear. And Done all the complicated Kramer program to run the equipments  </li>      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div> 
+ <!-------------------------Services------------------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> From conceptualization to implementation, I bring expertise in crafting visually appealing and functional websites. My skills cover both front-end and back-end development, ensuring a seamless and user-friendly online experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>Network Engineering </h2>
+                <p>With a focus on optimizing communication infrastructures, I excel in network engineering. This includes the configuration and management of routers, switches, and other networking components to ensure robust and secure connectivity.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>System Administration</h2>
+                <p>I provide efficient system administration services, overseeing the configuration and maintenance of servers. My expertise extends to implementing security measures and troubleshooting to guarantee the stability and reliability of IT systems.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--------------------------Portfolio----------------------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/server 2.jpg">
+                <div class="layer">
+                    <h3>Server Maintenance</h3>
+                    <p> With a meticulous approach, I manage and maintain servers, ensuring their optimal performance, security, and reliability. This involves configuration, updates, and proactive measures to prevent issues.</p>
+                    <!--a href="#"><i class="fa-solid fa-link"></i></a-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/network2.jpg">
+                <div class="layer">
+                    <h3>Network Maintenance</h3>
+                    <p>I excel in optimizing and maintaining network infrastructures. This includes the configuration and management of networking components to guarantee seamless communication, security, and efficiency.</p>
+                    <!--a href="#"><i class="fa-solid fa-link"></i></a-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/web design 2.jpg">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>Leveraging my skills in both front-end and back-end development, I design and develop web applications that meet the specific needs of clients. From conceptualization to deployment, my focus is on creating user-friendly, responsive, and functional web solutions.</p>
+                    <!--a href="#"><i class="fa-solid fa-link"></i></a-->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+ <!-----------------------Contact--------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jeffinshaji1997@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9745786677</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="Images/Resume_231205_202230.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jeffin.Made By MySelf, copying code is strictly restricted</p>
+    </div>
+ </div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script> 
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+</body>
+</html>
